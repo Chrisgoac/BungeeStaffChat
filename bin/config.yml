@@ -1,0 +1,57 @@
+Config:
+  live-cooldown: 20
+  request-cooldown: 20
+  report-cooldown: 60
+  enable-join-message: true
+  enable-leave-message: true
+  enable-switch-messages: true
+  cspy-on-console: true
+Messages:
+  sc-enabled: '&9&lBStaffChat &8» &7Staff chat is now &aenabled&7.'
+  sc-disabled: '&9&lBStaffChat &8» &7Staff chat is now &cdisabled&7.'
+  sc-format: '&9(Staff) (%server%) &e%player%: &7%message%'
+  ac-enabled: '&9&lBStaffChat &8» &7Admin chat is now &aenabled&7.'
+  ac-disabled: '&9&lBStaffChat &8» &7Admin chat is now &cdisabled&7.'
+  ac-format: '&9(Admin) (%server%) &e%player%: &7%message%'
+  cspy-enabled: '&9&lBStaffChat &8» &7Command spy is now &aenabled&7.'
+  cspy-disabled: '&9&lBStaffChat &8» &7Command spy is now &cdisabled&7.'
+  cspy-format: '&6(CSPY) &9(%server%) &e%player%: &7%command%'
+  no-permission: '&9&lBStaffChat &8» &cYou don''t have permissions to execute this
+    command.'
+  ad-format: '&8[&cAdvertisement&8] &e%ad%'
+  ad-no-message: '&9&lBStaffChat &8» &cYou have to put a message. &7/ad <message>'
+  live-no-message: '&9&lBStaffChat &8» &cYou have to put a message. &7/live <message>'
+  helpop-no-message: '&9&lBStaffChat &8» &cYou have to put a message. &7/helpop <message>'
+  clearchat-bypass: '&aChat cleared by &e%player%'
+  report-to-staff-message:
+    - '&7&m-----------------------------------'
+    - '&9Reporter: &e%reporter% &7(%reporter-server%)'
+    - '&9Reported: &e%reported% &7(%reported-server%)'
+    - '&9Reason: &e%reason%'
+    - '&7&m-----------------------------------'
+  report-to-player-message: '&9&lBStaffChat &8» &aYou have succefully reported: &e%player%&a,
+    &afor &athe &areason: &e%reason%&7'
+  report-incorrect-format: '&9&lBStaffChat &8» &cIncorrect format, use &7/report <player>
+    <reason>'
+  report-offline-player: '&9&lBStaffChat &8» &cThe player is offline.'
+  staff-join-network: '&9&lBStaffChat &8» &7The player &a%player% &7has &7connected
+    &7to &7the &7network.'
+  staff-leave-network: '&9&lBStaffChat &8» &7The player &a%player% &7has &7disconnected
+    &7from &7the &7network.'
+  staff-join-server: '&9&lBStaffChat &8» &7The player &a%player% &7has &7connected &7to
+    &a%server%&7.'
+  staff-leave-server: '&9&lBStaffChat &8» &7The player &a%player% &7has &7connected
+    &7to &a%server%&7.'
+  live-format:
+    - '&7&m-----------------------------------'
+    - '&c&l              Live'
+    - '&9%player% is live:'
+    - '&e%msg%'
+    - '&7&m-----------------------------------'
+  helpop-to-staff:
+    - '&7&m-----------------------------------'
+    - '&e%player% &7(%server%) &9need help:'
+    - '&e%msg%'
+    - '&7&m-----------------------------------'
+  helpop-to-player: '&9&lBStaffChat &8» &7Requested help: &c%msg%'
+  in-cooldown: '&9You still in cooldown: &7%seconds%'

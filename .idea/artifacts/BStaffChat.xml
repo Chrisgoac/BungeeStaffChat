@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="BStaffChat">
+    <output-path>$PROJECT_DIR$/../../Cosas Minecraft Servers/Servidores/TestPlugin-Network/BungeeCord/plugins</output-path>
+    <root id="archive" name="BStaffChat.jar">
+      <element id="module-output" name="Bungee-StaffChat" />
+    </root>
+  </artifact>
+</component>
